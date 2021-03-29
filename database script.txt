@@ -1,0 +1,10 @@
+create database forum;
+use forum;
+
+create table messages(
+forum_id int,
+parent_id int,
+user_id int,
+subject varchar(255),
+body text,
+date_entered date);
